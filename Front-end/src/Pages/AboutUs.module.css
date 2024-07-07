@@ -1,0 +1,149 @@
+.aboutUsBanner {
+  height: 300px;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  background-color: rgba(16, 15, 15, 0.342);
+}
+.aboutUsBanner h1 {
+  font-size: 70px;
+  font-weight: 800;
+  font-family: "Arvo";
+  text-align: center;
+  color: white;
+}
+.aboutUsInfo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.aboutUsImage {
+  padding: 50px;
+}
+.aboutUsImage img {
+  width: 500px;
+  height: 500px;
+  margin-left: 120px;
+  object-fit: cover;
+}
+.aboutUsContent {
+  padding: 50px;
+  margin-right: 60px;
+}
+.whoWeAre {
+  font-size: 16px;
+}
+.aboutUsHeading {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+.knowOurTeam {
+  margin: 50px 0px;
+  background-color: rgb(236, 236, 238);
+  padding: 80px 20px;
+}
+.knowOurTeamHeading {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: 100%;
+  height: 80vh;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  position: relative;
+  padding: 50px 200px;
+}
+
+.gridItem {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 12%);
+  border-radius: 5px;
+}
+
+.gridItem .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  opacity: 0;
+  display: none;
+}
+
+.gridItem:hover .overlay {
+  opacity: 1;
+  display: block;
+}
+
+.teamImages {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.teamImages:hover {
+  opacity: 0.8;
+}
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  font-family: "Playfair Display";
+  z-index: 5;
+}
+.discription {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  font-family: "Poppins";
+  z-index: 5;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutUsInfo {
+    display: block;
+  }
+  .aboutUsImage img {
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+  }
+  .aboutUsContent {
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+  }
+  .knowOurTeamHeading {
+    font-size: 28px;
+  }
+  .gridContainer {
+    grid-template-columns: repeat(1, 1fr);
+    height: auto;
+    padding: 50px;
+  }
+  .gridItem {
+    margin-bottom: 30px;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .discription {
+    font-size: 14px;
+  }
+}

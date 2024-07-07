@@ -1,0 +1,19 @@
+.ClearFlix {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+  margin: 10px 0px;
+}
+.form-control {
+  border-radius: 30px;
+}
+.button {
+  width: 100%;
+  padding: 10px 80px;
+}
+.heading {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: underline;
+}

@@ -1,0 +1,59 @@
+.signUp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=1060&t=st=1675601756~exp=1675602356~hmac=517fc38bd32bc6238eebb31c86154fb4d6044330ba708d225fa0c116d50681b9");
+  background-size: cover;
+  background-position: center;
+}
+
+.sign-up-form {
+  background-color: white;
+  padding: 0px 60px;
+  border-radius: 10px;
+  height: 530px;
+}
+
+.heading {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 28px 0px;
+  font-size: 30px;
+}
+.button {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.loginButton {
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .sign-up-form {
+    padding: 0px 30px;
+    height: 600px;
+  }
+
+  .heading {
+    font-size: 24px;
+    margin: 20px 0px;
+  }
+
+  .button {
+    font-size: 16px;
+  }
+}

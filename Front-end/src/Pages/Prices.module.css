@@ -1,0 +1,53 @@
+.outerDiv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 100px 80px;
+}
+.inner1,
+.inner2 {
+  margin: 0px 20px;
+}
+.heading {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+}
+.headingDiv {
+  background-color: rgba(16, 15, 15, 0.342);
+  padding: 80px;
+}
+.ServiceName {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em;
+  margin-bottom: 1em;
+}
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  font-family: "Poppins";
+}
+th {
+  background-color: #f2f2f2;
+  font-family: "Playfair Display";
+}
+.btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: rgb(254, 136, 155);
+  font-weight: 600;
+}
+.btn:hover {
+  color: gray;
+}

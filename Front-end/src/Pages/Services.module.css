@@ -1,0 +1,39 @@
+.services {
+  display: grid;
+  margin: 100px 100px;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 15px;
+}
+.content {
+  margin: 0px 10px;
+}
+
+img {
+  height: 400px;
+  width: auto;
+}
+.Heading {
+  font-size: 30px;
+  font-weight: 600;
+}
+.content {
+  font-size: 18px;
+}
+.mainHeading {
+  text-align: center;
+  margin: 50px;
+  text-decoration: underline;
+}
+button {
+  padding: 15px 30px;
+  color: white;
+  background-color: black;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.price {
+  color: white;
+}
+.price:hover {
+  color: pink;
+}
